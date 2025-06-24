@@ -1,0 +1,22 @@
+gantt
+    title Predictive Maintenance Data Timeline
+    dateFormat  HH:mm
+    axisFormat  %H:%M
+
+    section Data Collection
+    Sensor Reads       :done, 01:00, 5m
+    Metadata Tagging   :done, 01:05, 2m
+
+    section Edge Processing
+    Aggregate Signals  :done, 01:07, 2m
+    Preprocessing      :done, 01:09, 3m
+
+    section Cloud Ingestion
+    Upload to AWS IoT  :done, 01:12, 1m
+    Store + Normalize  :done, 01:13, 3m
+
+    section ML & Action
+    Feature Engineering:done, 01:16, 2m
+    Model Scoring      :done, 01:18, 1m
+    Alert + Ticket     :done, 01:19, 1m
+    Feedback Sync      :done, 01:20, 2m
